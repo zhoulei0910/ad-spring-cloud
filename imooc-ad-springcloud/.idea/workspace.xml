@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a50bc285-7c99-4dde-b02a-5429ee567ec6" name="Default Changelist" comment="" />
+    <list default="true" id="a50bc285-7c99-4dde-b02a-5429ee567ec6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/index/IndexAware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/index/adplan/AdPlanIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/index/adplan/AdPlanObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/index/adunit/AdUnitObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/ad-eurka/target/" />
@@ -61,9 +68,9 @@
     <session id="-1692434756">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="1" />
@@ -71,13 +78,13 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="6" />
-          <entry key="java" value="134" />
+          <entry key="java" value="138" />
           <entry key="xml" value="10" />
           <entry key="yml" value="8" />
         </counts>
@@ -85,21 +92,21 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="134" />
+          <entry key="JAVA" value="138" />
           <entry key="XML" value="10" />
           <entry key="YAML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="12058" />
+          <entry key="java" value="13233" />
           <entry key="xml" value="50" />
           <entry key="yml" value="541" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12058" />
+          <entry key="JAVA" value="13233" />
           <entry key="XML" value="50" />
           <entry key="YAML" value="541" />
         </counts>
@@ -108,11 +115,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/controller/SearchController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+            <state relative-caret-position="235">
+              <caret line="33" column="76" lean-forward="true" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,43 +128,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/client/SponsorClientHystrix.java">
+        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/index/IndexAware.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/client/SponsorClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/zhoulei/ad/vo/CommonResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/SearchApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="42">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -167,6 +141,42 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
               <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/index/adplan/AdPlanObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/index/adplan/AdPlanIndex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/index/adunit/AdUnitObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -194,13 +204,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/zhoulei/ad/dao/unit_condition/AdUnitItRepository.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/zhoulei/ad/dao/unit_condition/AdUnitKeywordRepository.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/zhoulei/ad/dao/unit_condition/CreativeUnitRepository.java" />
-        <option value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/zhoulei/ad/vo/CreateUserResponse.java" />
         <option value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/zhoulei/ad/vo/CreateUserRequest.java" />
         <option value="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/pom.xml" />
         <option value="$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/zhoulei/ad/util/CommonUtils.java" />
@@ -248,6 +257,10 @@
         <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/controller/SearchController.java" />
         <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/client/SponsorClient.java" />
         <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/client/SponsorClientHystrix.java" />
+        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/index/IndexAware.java" />
+        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/index/adplan/AdPlanObject.java" />
+        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/index/adplan/AdPlanIndex.java" />
+        <option value="$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/index/adunit/AdUnitObject.java" />
       </list>
     </option>
   </component>
@@ -312,12 +325,14 @@
     <option name="width" value="1005" />
     <option name="height" value="780" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -404,7 +419,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zhoulei" type="462c0819:PsiDirectoryNode" />
               <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="imooc-ad-springcloud" type="b2602c69:ProjectViewProjectNode" />
@@ -417,8 +432,8 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zhoulei" type="462c0819:PsiDirectoryNode" />
               <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="adplan" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="imooc-ad-springcloud" type="b2602c69:ProjectViewProjectNode" />
@@ -431,7 +446,8 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zhoulei" type="462c0819:PsiDirectoryNode" />
               <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="adunit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="imooc-ad-springcloud" type="b2602c69:ProjectViewProjectNode" />
@@ -488,6 +504,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -499,7 +516,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574996914144" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575362624660" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -632,18 +649,19 @@
       <workItem from="1574667478475" duration="18821000" />
       <workItem from="1574994860043" duration="1917000" />
       <workItem from="1575005314882" duration="5802000" />
-      <workItem from="1575252493635" duration="1380000" />
+      <workItem from="1575252493635" duration="5448000" />
+      <workItem from="1575360183679" duration="2172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96137000" />
+    <option name="totallyTimeSpent" value="102377000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28686327" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24731903" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -686,34 +704,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/zhoulei/ad/vo/AdUnitDistrictResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/zhoulei/ad/service/IUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/zhoulei/ad/constant/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="4426" column="25" selection-start-line="4426" selection-start-column="25" selection-end-line="4426" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/java/com/zhoulei/ad/vo/CreateUserRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1000,6 +990,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="33" column="76" lean-forward="true" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/client/SponsorClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-common/src/main/java/com/zhoulei/ad/vo/CommonResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1009,8 +1016,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/SearchApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="420">
           <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/client/SponsorClientHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1027,34 +1051,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/index/adplan/AdPlanObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/client/SponsorClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/client/SponsorClientHystrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="487">
+          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/controller/SearchController.java">
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/index/IndexAware.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        <state relative-caret-position="42">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/index/adplan/AdPlanIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imooc-ad-service/ad-search/src/main/java/com/zhoulei/ad/index/adunit/AdUnitObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
